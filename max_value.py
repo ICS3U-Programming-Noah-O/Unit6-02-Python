@@ -27,6 +27,7 @@ def main():
         num = random.randint(0, 100)
 
         array.append(num)
+        print("{} added in position {}.".format(num, counter))
     max_v = calculate_max_value(array)
     print(array)
     print(max_v)
